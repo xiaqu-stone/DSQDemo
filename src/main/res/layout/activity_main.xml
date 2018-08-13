@@ -50,5 +50,4 @@
         app:layout_constraintEnd_toEndOf="@+id/btnFaceIdOcr"
         app:layout_constraintStart_toStartOf="@+id/btnFaceIdOcr"
         app:layout_constraintTop_toTopOf="@+id/btnFaceLiveness" />
-
 </android.support.constraint.ConstraintLayout>
