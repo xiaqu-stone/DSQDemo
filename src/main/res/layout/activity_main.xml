@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnFaceBankOcr"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Face++BankOCR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFaceIdOcr"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFaceIdOcr"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Face++ID-Front"
+        app:layout_constraintBottom_toBottomOf="@+id/btnFaceBankOcr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFaceBankOcr"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFaceLiveness"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Face++Liveness"
+        app:layout_constraintEnd_toEndOf="@+id/btnFaceBankOcr"
+        app:layout_constraintStart_toStartOf="@+id/btnFaceBankOcr"
+        app:layout_constraintTop_toBottomOf="@+id/btnFaceBankOcr" />
+
+    <Button
+        android:id="@+id/btnFaceIdOcrBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Face++ID-BACK"
+        app:layout_constraintBottom_toBottomOf="@+id/btnFaceLiveness"
+        app:layout_constraintEnd_toEndOf="@+id/btnFaceIdOcr"
+        app:layout_constraintStart_toStartOf="@+id/btnFaceIdOcr"
+        app:layout_constraintTop_toTopOf="@+id/btnFaceLiveness" />
+</android.support.constraint.ConstraintLayout>

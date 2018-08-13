@@ -1,0 +1,26 @@
+*iDCardLib/build/
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+#built application files
+*.apk
+*.ap_
+gradlew
+.gradle/
+.idea/
+*.iml
+
+/gradle.properties
+
+
+
+app/debug/output.json
+
+app/Dkhk/release/output.json
+
+app/release/output.json
